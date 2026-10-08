@@ -1,0 +1,1730 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "f7badc7c-7e64-4585-b56b-f623d6ac4199",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "even\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=4\n",
+    "if a%2==0:\n",
+    "  print(\"even\")\n",
+    "else:\n",
+    "  print(\"odd\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0761cd94-ef30-4ff4-ab98-350ee1094bb3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "af448742-39af-4ec9-ba3b-3c3c8e05cffe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "true\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=4\n",
+    "if a%2==0:\n",
+    " print(\"true\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "bf902c82-7e76-4f51-bc9e-3a45c83ee478",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "even\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "if a!=0:\n",
+    "    if a%2==0:\n",
+    "      print(\"even\")\n",
+    "    else:\n",
+    "      print(\"odd\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "6515bfcc-ae57-4a03-af71-a0fad833d92e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "zero is not allowed\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=0\n",
+    "if a!=0:\n",
+    "    if a%2==0:\n",
+    "      print(\"even\")\n",
+    "    else:\n",
+    "      print(\"odd\")\n",
+    "else:\n",
+    "    print(\"zero is not allowed\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "3ea6f740-6fe7-442b-8d4d-0f244fd4bb91",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "number is not divisible by both\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=7\n",
+    "if a%2==0 and a%2==0:\n",
+    "  print(\"number is divisible by 2 and 3\")\n",
+    "else:\n",
+    "    if a%2==0 and a%3!=0:\n",
+    "     print(\"number is divisible by 2 and not 3\")\n",
+    "    else:\n",
+    "       if a%2!=0 and a%3==0:\n",
+    "          print(\"number is divisible by 3 and not 2\")\n",
+    "       else:\n",
+    "          print(\"number is not divisible by both\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "63a66d6f-2d78-4803-944e-7f5e1b19ecf3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "number is not divisible by both\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=7\n",
+    "if a%2==0 and a%2==0:\n",
+    "    print(\"number is divisible by 2 and 3\")\n",
+    "else:\n",
+    "    if a%2==0 and a%2!=0:\n",
+    "     print(\"number is divisible by 2 and not 3\")\n",
+    "    else:\n",
+    "       if a%2!=0 and a%2==0:\n",
+    "        print(\"number is divisible by 3 and not 2\")\n",
+    "       else:\n",
+    "         print(\"number is not divisible by both\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "329454e1-1ae6-4ce9-8e0b-8bbc1b87c3b3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "value is div by 2 but not 3\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "if a%2==0 and a%3==0:\n",
+    "    print(\"value is div by both 2 and 3\")\n",
+    "elif a%2==0 and a%3!=0:\n",
+    "    print(\"value is div by 2 but not 3\")\n",
+    "elif a%2!=0 and a%3==0:\n",
+    "    print(\"value is div by 3 but not 2\")\n",
+    "elif a%2!=0 and a%3!=0:\n",
+    "    print(\"value is not div by both 2 and 3\")\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "86ea826e-43e3-4aee-99d8-caa2f925a635",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "b is greater than a and c\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "b=20\n",
+    "c=15\n",
+    "if a>b and a>c:\n",
+    "    print(\"a is greater than b and c\")\n",
+    "elif b>a and b>c:\n",
+    "    print(\"b is greater than a and c\")\n",
+    "elif c>a and c>b:\n",
+    "    print(\"c is greater than a and b\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "bf077503-704d-45fd-9fb5-6ed4ca60f52d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "b is greater than a and c\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "b=20\n",
+    "c=15\n",
+    "if a>b:\n",
+    "     if a>c:\n",
+    "        print(\"a is greater than b and c\")\n",
+    "elif b>a: \n",
+    "     if b>c:\n",
+    "        print(\"b is greater than a and c\")\n",
+    "elif c>a:\n",
+    "      if c>b:\n",
+    "        print(\"c is greater than a and b\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "f21c1e3d-209e-44c0-9fbf-c720a51736fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "both the conditions are satisfied\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=True\n",
+    "b=True\n",
+    "if a and b:\n",
+    "    print(\"both the conditions are satisfied\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "049d4e2b-45f3-40ab-bd33-8641aad27cfc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "both the conditions are satisfied\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=True\n",
+    "b=True\n",
+    "if a:\n",
+    "    if b:\n",
+    "        print(\"both the conditions are satisfied\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "38adf3e9-e6d3-49b6-afa2-7d7b3c6f461a",
+   "metadata": {},
+   "source": [
+    "here we know which condition is having priority\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1ac9bbb6-d4d4-46d3-944b-a606464d6c60",
+   "metadata": {},
+   "source": [
+    "in order to know the about thefunction use shift+tab"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "f9d53ad2-b839-4bb0-89a3-4df9a0fe29a5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 5\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "input()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "47cdba17-7b25-4243-a98f-7f5e5f1c3b1f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 5\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(input())\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "32299e10-713b-48c7-b372-bd30fad7c0fb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 2\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'2'"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d=input()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "477f0e05-1800-4459-8d74-fafd2c264820",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "d=input()\n",
+    "print(d)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "a62fc9f1-894d-419d-8356-21e7c5a31a3c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'3'"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "54487594-956f-4487-a592-d66aeca31459",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "d=input()\n",
+    "print (d)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "a2a6f269-876d-4f43-8664-544212fd4b01",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'3'"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a2c7d371-7307-4cc3-822f-b3350c31efc4",
+   "metadata": {},
+   "source": [
+    "task related to input function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "215c8059-bdd6-41d2-acc7-116b46f17361",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter a value: 28\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "no output\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter a value:\"))\n",
+    "if a >= 1 and a<= 10:\n",
+    "    print(\"try next time\")\n",
+    "elif a >= 11 and a<= 20:\n",
+    "       print(\"very good\")\n",
+    "elif a >= 21 and a<= 25:\n",
+    "       print(\"you are good person\")\n",
+    "elif a >= 26 and a<= 30 and a!=28:\n",
+    "       print(\"better luck next time\")\n",
+    "elif a==28:\n",
+    "      print(\"no output\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "78479a13-1211-4908-9c16-d9cb5ce0d953",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " \n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "''"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "input()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "401e68cf-2ae9-4ca2-8214-405d72d0a51a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " \n"
+     ]
+    }
+   ],
+   "source": [
+    "f=input()            (when iam executing iam not getting any warning)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2f9d60a3-d885-41d2-bf15-a5d944ace417",
+   "metadata": {},
+   "source": [
+    "##loop"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "78699982-9e76-46cc-bdf8-2f6d5e8a5d2c",
+   "metadata": {},
+   "source": [
+    "loop=doing the same thing multiple times or repeating the same thing.\n",
+    "it will reduce the code redundancy.\n",
+    "we have 2 loops in python\n",
+    "while loop-unlimited output nature when the condition is true.\n",
+    "for loop-\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "8930610b-2b70-4e0f-8727-3b9de93a0e4b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hii\n",
+      "hii\n",
+      "hii\n",
+      "hii\n",
+      "hii\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=0\n",
+    "b=5\n",
+    "while a<b:\n",
+    "     print(\"hii\")\n",
+    "     a=a+1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "be723bc6-728b-45c5-a626-3b80edc2057c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hii\n",
+      "hii\n",
+      "hii\n",
+      "hii\n",
+      "hii\n"
+     ]
+    }
+   ],
+   "source": [
+    "if 0<5:\n",
+    " print(\"hii\")\n",
+    "if 1<5:\n",
+    " print(\"hii\")\n",
+    "if 2<5:\n",
+    " print(\"hii\")\n",
+    "if 3<5: \n",
+    " print(\"hii\")\n",
+    "if 4<5: \n",
+    " print(\"hii\")\n",
+    "if 5<5:\n",
+    " print(\"hii\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9eaeb72d-96ce-4821-830f-0809a8d7e9c5",
+   "metadata": {},
+   "source": [
+    "sub execution inside a loop is called iteration"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "dfc58b8d-1fef-41c7-9d02-78acf423df68",
+   "metadata": {},
+   "source": [
+    "equation=result+next value\n",
+    "it is the equation for sum of n numbers\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "ca8b3bad-5819-4050-a2fd-396100000fb3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "a=0\n",
+    "b=10\n",
+    "c=0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "43cc3b2a-d95c-4fe0-96d1-d3cce9e9bf65",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "55\n"
+     ]
+    }
+   ],
+   "source": [
+    "if a<b:\n",
+    "    a=a+1 \n",
+    "    print(a)\n",
+    "    c=c+a\n",
+    "    print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "fc66bc21-bfac-46e9-a716-e18db7f66a90",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=0\n",
+    "b=10\n",
+    "c=0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "5b9c07b7-4e0c-4cc6-8320-ea7b789e565e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "3\n",
+      "6\n",
+      "10\n",
+      "15\n",
+      "21\n",
+      "28\n",
+      "36\n",
+      "45\n",
+      "55\n"
+     ]
+    }
+   ],
+   "source": [
+    "while a<b:\n",
+    "    a=a+1 \n",
+    "    c=c+a\n",
+    "    print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b85d7261-dfe0-4a44-b57a-3478a8fa1cef",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "if 0<10:\n",
+    "    print(1)\n",
+    "    print(1)\n",
+    "if 1<10:\n",
+    "    print(2)\n",
+    "    print(3)\n",
+    "if 2<10:\n",
+    "    print(3)\n",
+    "    print(6)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "6f290088-07e2-4ebb-bb11-778a140443f5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3628800\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=0\n",
+    "b=10\n",
+    "c=1\n",
+    "while a<b:\n",
+    "    a=a+1\n",
+    "    c=c*a\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5d86d6f3-0795-4a66-a4ba-5384911bce8a",
+   "metadata": {},
+   "source": [
+    "product of n numbers is the formula present in above"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "da6f5392-cbd2-4015-b929-52e1dbbb20de",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for i in f:\n",
+    "    if i==88:\n",
+    "        break\n",
+    "    c=c+a\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "a02c8709-c793-446a-8458-8ec24441f124",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0 0 0\n",
+      "0 0 1\n",
+      "0 0 2\n",
+      "0 0 3\n",
+      "0 0 4\n",
+      "0 1 0\n",
+      "0 1 1\n",
+      "0 1 2\n",
+      "0 1 3\n",
+      "0 1 4\n",
+      "0 2 0\n",
+      "0 2 1\n",
+      "0 2 2\n",
+      "0 2 3\n",
+      "0 2 4\n",
+      "0 3 0\n",
+      "0 3 1\n",
+      "0 3 2\n",
+      "0 3 3\n",
+      "0 3 4\n",
+      "1 0 0\n",
+      "1 0 1\n",
+      "1 0 2\n",
+      "1 0 3\n",
+      "1 0 4\n",
+      "1 1 0\n",
+      "1 1 1\n",
+      "1 1 2\n",
+      "1 1 3\n",
+      "1 1 4\n",
+      "1 2 0\n",
+      "1 2 1\n",
+      "1 2 2\n",
+      "1 2 3\n",
+      "1 2 4\n",
+      "1 3 0\n",
+      "1 3 1\n",
+      "1 3 2\n",
+      "1 3 3\n",
+      "1 3 4\n",
+      "2 0 0\n",
+      "2 0 1\n",
+      "2 0 2\n",
+      "2 0 3\n",
+      "2 0 4\n",
+      "2 1 0\n",
+      "2 1 1\n",
+      "2 1 2\n",
+      "2 1 3\n",
+      "2 1 4\n",
+      "2 2 0\n",
+      "2 2 1\n",
+      "2 2 2\n",
+      "2 2 3\n",
+      "2 2 4\n",
+      "2 3 0\n",
+      "2 3 1\n",
+      "2 3 2\n",
+      "2 3 3\n",
+      "2 3 4\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(3):\n",
+    "    for j in range(4):\n",
+    "        for k in range(5):\n",
+    "            print(i,j,k)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "c809f6af-f7e3-4ad6-b5b9-3e7df2e993e9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(1, 0)\n",
+      "(2, 8)\n",
+      "(5, 2)\n",
+      "(10, 11)\n"
+     ]
+    }
+   ],
+   "source": [
+    "h=[(1,0),(2,8),(5,2),(10,11)]\n",
+    "for i in h:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "3d210216-6e95-465b-8f83-f62af154b9c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "0\n",
+      "2\n",
+      "8\n",
+      "5\n",
+      "2\n",
+      "10\n",
+      "11\n"
+     ]
+    }
+   ],
+   "source": [
+    "h=[(1,0),(2,8),(5,2),(10,11)]\n",
+    "for i in h:\n",
+    "    print(i[0])\n",
+    "    print(i[1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "c8d2737a-ddcb-426f-8bb4-5c018148385a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "5\n",
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "h=[(1,0),(2,8),(5,2),(10,11)]\n",
+    "for i in h:\n",
+    "    print(i[0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "7958b6db-6d0b-4361-b2d0-71e14c5166c2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 0\n",
+      "2 8\n",
+      "5 2\n",
+      "10 11\n"
+     ]
+    }
+   ],
+   "source": [
+    "h=[(1,0),(2,8),(5,2),(10,11)]\n",
+    "for i in h:\n",
+    "    print(i[0],end=\" \")\n",
+    "    print(i[1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "7f4447ae-d61b-4e67-b725-6220a4397386",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 0\n",
+      "2 8\n",
+      "5 2\n",
+      "10 11\n"
+     ]
+    }
+   ],
+   "source": [
+    "h=[(1,0),(2,8),(5,2),(10,11)]\n",
+    "for i,j in h:\n",
+    "    print(i,end=\" \")\n",
+    "    print(j)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "64a76123-9022-4f9d-a0c3-f0ab0c2e1e6d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 0 10\n",
+      "2 8 20\n",
+      "5 2 30\n",
+      "10 11 40\n"
+     ]
+    }
+   ],
+   "source": [
+    "h=[(1,0,10),(2,8,20),(5,2,30),(10,11,40)]\n",
+    "for i,j,k in h:\n",
+    "    print(i,end=\" \")\n",
+    "    print(j,end=\" \")\n",
+    "    print(k)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1f52bdb9-926e-4c8e-957e-4b990bc936ab",
+   "metadata": {},
+   "source": [
+    "##function:execute multiple statements at a time through single line ,\n",
+    "code redundancy will reduce by using function,code reusability will happen.\n",
+    "identifier = which can store the values."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "03b430cb-62ca-4f4e-a697-a01fa53edfaa",
+   "metadata": {},
+   "source": [
+    "how to create function:coming to function name we have to follow the identifier rules"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d86d65a1-ca09-470d-ae59-6dbfbe763472",
+   "metadata": {},
+   "source": [
+    "creation of a function does not give the value ,execution of a function will give you the output (press ctrl +enter) for both"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "ddf91531-e289-41d9-a47a-13d961cf68f7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def fn():print(\"hello\");print(\"hii\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "fdd8cbde-adc2-4abe-9dc9-9088c4eff10f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n",
+      "hii\n"
+     ]
+    }
+   ],
+   "source": [
+    "fn()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "2d809208-7956-4270-aef5-a438ec288843",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def fn():\n",
+    "    print(\"hello\")\n",
+    "    print(\"hii\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "052b730e-12c0-402a-ad4c-e00bb770d8d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n",
+      "hii\n"
+     ]
+    }
+   ],
+   "source": [
+    "fn()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e74f5558-7e71-487a-8758-4a66c450a216",
+   "metadata": {},
+   "source": [
+    "when you have indentation error  select everything and press shift +tab and then place the cursor and click tab.then we will not get any indentation errors."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cde19c28-0c66-4cbd-80a1-c7d566490076",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "aoc=area of a circle(function name)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fff39025-ba30-43ae-a4e6-ae86ff0f36a9",
+   "metadata": {},
+   "source": [
+    "strip:it will remove the unwanted or additional spaces or it will remove the spaces"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "eb823503-9adb-4458-baaa-90783f8eab2c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def aoc():\n",
+    "    r=input(\"enter the radius\").strip()\n",
+    "    a=(3.14*(int(r)**2))\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "c79c3a9f-c2c6-451b-8700-834c9bb8b0e2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the radius 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "78.5\n"
+     ]
+    }
+   ],
+   "source": [
+    "aoc()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4485e0ea-9cc7-4fda-934f-a4aa63fe8315",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "area of rectangle=length*breadth"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "1b8747af-8251-4560-8471-e3f8e66f17f2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def aor():\n",
+    "    length=input(\"enter the value\").strip()\n",
+    "    breadth=input(\"enter the value\").strip()\n",
+    "    a=len(length)*(breadth)\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "c6202420-8167-4cbd-9c13-6cca5056fae4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value 4\n",
+      "enter the value 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "aor()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b9de6da2-6c61-4a27-b7bb-32ddbeda7aa0",
+   "metadata": {},
+   "source": [
+    "area of a cube = length*breadth*volume"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "78b7cc0a-a940-41dc-9bb7-4488d333d057",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def aoc():\n",
+    "    length=input(\"enter the value\").strip()\n",
+    "    breadth=input(\"enter the value\").strip()\n",
+    "    volume=input(\"enter the value\").strip()\n",
+    "    a=len(length)*(breadth)*len(volume)\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "8d59302b-1ee6-4134-8505-8635c995bc1a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value 4\n",
+      "enter the value 5\n",
+      "enter the value 6\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "aoc()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6ed7871b-7cda-4b69-9b5c-1311c078d840",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "celsius to foreign heat:we need celsius"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "de210100-f60b-40c7-af80-6b6389623c57",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def ctof():\n",
+    "    celsius=input(\"enter the value\")\n",
+    "    a=celsius\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "2685f420-d58d-450f-81ce-a1cd4b39ebb3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "ctof()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "905a3a13-95df-4154-9e31-ab91cfc7b457",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "area of a square=side square:we need side"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "c5ba5760-f192-4d66-8d66-50428a3fd009",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def aos():\n",
+    "    side=int(input().strip())\n",
+    "    a=side*side\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "ecd2960f-fa47-4fb3-a185-07326db24978",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25\n"
+     ]
+    }
+   ],
+   "source": [
+    "aos()"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "8c5d0fba-ac31-420f-9392-2e21d73be6a3",
+   "metadata": {},
+   "source": [
+    "area of triangle:base*height"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "8048f8a3-f13f-4b26-805b-30c853184539",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def aot():\n",
+    "    base=int(input(\"enter the value\").strip())\n",
+    "    height=int(input(\"enter the value\").strip())\n",
+    "    a=(base*height)\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "0ad7d2fe-c293-4a01-af8d-5587a6703eeb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value 6\n",
+      "enter the value 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "30\n"
+     ]
+    }
+   ],
+   "source": [
+    "aot()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8c98a55b-bb06-4ecc-badd-7485ddf92c51",
+   "metadata": {},
+   "source": [
+    "instead of giving input manually we can use this method also."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "ff0163b8-5b6e-4b9e-89a5-dd8f87796270",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def aos(s):\n",
+    "    a=s*s\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "94ab5718-52b0-43ee-a009-9a289bdd314d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "aos(10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "42377ac2-9809-43c5-b479-07dfe579d02e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def aor(l,b):\n",
+    "    a=l*b\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "efda9ee1-6fbe-486e-8924-674c7ebf8b8a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "200\n"
+     ]
+    }
+   ],
+   "source": [
+    "aor(10,20)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "33e53561-aa38-43aa-a90c-5734ca4e4979",
+   "metadata": {},
+   "source": [
+    "how you can provide the information to a function(docstring). when the function has no information use the following procedure:(here \"aor\" does not have the doc string(information)that's why we used this procedure)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "8297977b-692e-4f01-b351-2a90a0766772",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def aor(l,b):\n",
+    "    '''\n",
+    "    this is area of rectangle.\n",
+    "    '''\n",
+    "    a=l*b\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "7e2bdc7f-ae32-49bc-a290-1c79575d670b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "200\n"
+     ]
+    }
+   ],
+   "source": [
+    "aor(10,20)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fe34a566-4c72-4a78-a40f-7c2bc0e0b08b",
+   "metadata": {},
+   "source": [
+    "doc string is the manual for \"llm\".that's why we need to provide doct string when the information is not present.with the help of docstring it wil run and perform the activities."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "ed68ffdb-6c3b-4569-95f2-1d80a6660a84",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['b', 'c']"
+      ]
+     },
+     "execution_count": 35,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"b,c\".split(\",\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "756bc0db-9951-495f-a8a0-000d03453b9c",
+   "metadata": {},
+   "source": [
+    "split: based on the given elements it will divide the values or elements"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "2edd6726-23bd-4bab-a599-9134c063c6be",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hii\n"
+     ]
+    }
+   ],
+   "source": [
+    "def g():\n",
+    "    print(\"hii\")\n",
+    "    \n",
+    "if __name__==\"__main__\":\n",
+    "   g()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "a2765b1e-1a91-449a-a004-d93869da5123",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "def aos(s):\n",
+    "    a=s*s\n",
+    "    print(a)\n",
+    "if __name__==\"__main__\":\n",
+    "  aos(10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "477e91db-0a39-419c-81e5-6be7f9a9faf2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def aos(s):\n",
+    "    a=s*s\n",
+    "    print(a)\n",
+    "def aor(l,b):\n",
+    "    a=l*b\n",
+    "    print(a)\n",
+    "def aoc(r):\n",
+    "    a=3.14*(r*r)\n",
+    "    print(a)\n",
+    "def aot(b,h):\n",
+    "    a=b*h\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "3c1e9e95-a969-4607-a83b-1fb3fd58f4c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n",
+      "9\n",
+      "78.5\n",
+      "16\n"
+     ]
+    }
+   ],
+   "source": [
+    "aos(3)\n",
+    "aos(3)\n",
+    "aoc(5)\n",
+    "aot(4,4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "2df4c236-3505-45cb-9369-84106b61b444",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def aos(s):\n",
+    "    a=s*s\n",
+    "    print(a)\n",
+    "def aoc(l,b,v):\n",
+    "    a=l*b*v\n",
+    "    print(a)\n",
+    "def aot(b,h):\n",
+    "    a=b*h\n",
+    "    print(a)\n",
+    "def aor(l,b):\n",
+    "    a=l*b\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "a0a0601d-0387-4868-9798-2f458f11984e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n",
+      "6\n",
+      "35\n",
+      "12\n"
+     ]
+    }
+   ],
+   "source": [
+    "aos(3)\n",
+    "aoc(1,2,3)\n",
+    "aot(5,7)\n",
+    "aor(3,4)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "anaconda-2025.12-py312",
+   "language": "python",
+   "name": "conda-env-anaconda-2025.12-py312-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
